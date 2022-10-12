@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.limiter {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.data-wrapper {
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 15px;
+    border: grey solid 1px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 5px auto;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 150px;
+}
